@@ -9,11 +9,12 @@ public class MoveObjectRB01 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody.AddForce(moveDirection, ForceMode.Impulse);
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        rigidbody.AddForce(moveDirection, ForceMode.Impulse);
     }
 }
