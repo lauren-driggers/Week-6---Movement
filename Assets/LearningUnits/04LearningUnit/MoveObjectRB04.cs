@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveObjectRB04 : MonoBehaviour
 {
+    // made the mass of the red one 2 so that it was just enough to push the blue one off while staying on
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update

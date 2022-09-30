@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveObjectRB05 : MonoBehaviour
 {
+    // made the red cube not kinematic so that it will be affected by the physics, and then edited the masses
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update

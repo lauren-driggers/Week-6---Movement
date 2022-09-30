@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveObjectRB03 : MonoBehaviour
 {
+    // changed the masses of the blue and red cubes so that the red could knock the blue off
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update
